@@ -1,0 +1,10 @@
+twig:
+    file_name_pattern: '*.twig'
+    form_themes:
+        - 'form/fields.html.twig'
+    globals:
+        image_src: '%image_src%'
+
+when@test:
+    twig:
+        strict_variables: true
